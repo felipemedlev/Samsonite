@@ -95,7 +95,7 @@ output_folder/
 To create the standalone `.exe` file:
 
 ```bash
-pyinstaller --onefile --noconsole main.py
+pyinstaller --name 'SamTag' --icon './src/app_icon/SamTag.ico' --windowed --onedir --add-data='./src/*.pdf;src' --add-data='./src/fonts/*.ttf;src/fonts' --add-data='./src/app_icon/*;src/app_icon' --paths './sams_venv/lib/python3.11/site-packages' --hidden-import=pkg_resources.py2_warn main.py
 ```
 
 The executable will be found inside the `dist/` folder and can be run on any Windows PC without installing Python.
