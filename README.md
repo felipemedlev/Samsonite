@@ -1,7 +1,6 @@
-[samsonite_readme.md](https://github.com/user-attachments/files/21746003/samsonite_readme.md)
-# 🏷 Samsonite Product Tag & Label Generator
+# Samsonite Product Tag & Label Generator
 
-## 📌 Overview
+## Overview
 
 This tool automates the creation of **Samsonite product collaterals** (labels, stickers, and tags) from a single **Excel Collaterals Matrix** file. It's designed to save time, reduce manual design work, and ensure **branding and export compliance** across multiple markets.
 
@@ -13,7 +12,7 @@ Given an Excel spreadsheet where **each row corresponds to one product**, the ap
 
 The program includes a **simple Tkinter-based graphical interface** so that no command-line knowledge is needed, and can be distributed as a **standalone executable** built with **PyInstaller** for easy installation on any computer.
 
-## 🎯 Key Features
+## Key Features
 
 - **Excel to Labels in One Click** - Reads your **Collateral Matrix** and generates all required product assets.
 - **Multiple Label Formats Supported** - Creates PDF & SVG collaterals for:
@@ -33,7 +32,7 @@ The program includes a **simple Tkinter-based graphical interface** so that no c
   - No Python installation required
   - Works on any Windows PC by running the `.exe` file
 
-## 🖼 Output Folder Structure
+## Output Folder Structure
 
 After generation, your output will be organized like this:
 
@@ -61,14 +60,14 @@ output_folder/
 │   └── ...
 ```
 
-## 🚀 How It Works
+## How It Works
 
 1. **Open the App** - Launch the `.exe` file (or run the Python script if using source code).
 2. **Select Excel File** - Use the GUI to browse for the **Collateral Matrix** Excel file.
 3. **Choose Output Folder** - Pick where the generated collaterals should be saved.
 4. **Click Generate** - The tool reads product data, creates barcodes, generates PDFs, and organizes them into folders.
 
-## 📋 Requirements (if running from source)
+## Requirements (if running from source)
 
 - Python 3.8+
 - Excel file with **exact column names** used in the Collateral Matrix
@@ -85,13 +84,13 @@ output_folder/
 - pillow
 - tkinter (comes with Python)
 
-## 💡 Use Cases
+## Use Cases
 
 - **Manufacturing** → Preparing all product tags before shipping
 - **Export Compliance** → Automatically includes all necessary market-specific labels
 - **Brand Consistency** → Uses the same design for every label, avoiding manual errors
 
-## 📦 Building the Executable
+## Building the Executable
 
 To create the standalone `.exe` file:
 
