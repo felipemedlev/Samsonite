@@ -12,6 +12,8 @@ Given an Excel spreadsheet where **each row corresponds to one product**, the ap
 
 The program includes a **simple Tkinter-based graphical interface** so that no command-line knowledge is needed, and can be distributed as a **standalone executable** built with **PyInstaller** for easy installation on any computer.
 
+[![Watch the demo](https://img.icons8.com/fluency/48/play.png)](https://uccl0-my.sharepoint.com/personal/frmediavilla_uc_cl/_layouts/15/stream.aspx?id=%2Fpersonal%2Ffrmediavilla%5Fuc%5Fcl%2FDocuments%2FSamsonite%2FSamTag%20Demo%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec8bf29df%2D4580%2D4eea%2Db3cc%2D054e13c1a035)
+
 ## Key Features
 
 - **Excel to Labels in One Click** - Reads your **Collateral Matrix** and generates all required product assets.
